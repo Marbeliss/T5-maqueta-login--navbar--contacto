@@ -1,0 +1,23 @@
+.navbar{
+  padding: 1rem;
+  position: fixed;
+  min-width: 100%;
+}
+
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+@media screen and (max-width:767px){
+  .navbar-brand{
+    display: none;
+    position: fixed;
+  }
+}
